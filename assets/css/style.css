@@ -32,7 +32,7 @@ header h1 {
 	display: inline-block;
 	font-size: 50px;
     padding: 10px;
-    background-color: lightblue;
+    background-color: #2471A3;
 	color: white;
 
 }
@@ -91,7 +91,7 @@ header nav ul li {
 .label-work {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	border-right: 3px solid #2471A3;
-	height: 1650px;
+	height: 1850px;
 	position: absolute;
 	right: 86%;
 	padding-right: 25px;
