@@ -1,0 +1,179 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+a {
+	color: #2471A3;
+	text-decoration: none;
+	font-family: "Montserrat";
+}
+header {
+	padding: 10px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	background-color: rgb(80, 75, 75);
+	color: lightblue;
+}
+header h1 {
+	display: inline-block;
+	font-size: 50px;
+    padding: 10px;
+    background-color: lightblue;
+	color: grey;
+
+}
+header nav {
+	
+	padding-top: 25px;
+	margin-right: 50px;
+	float: right;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 20px;
+    
+    }
+
+header nav ul li {
+	display: inline-block;
+	margin-left: 25px;
+	list-style-type: none;
+    
+}
+
+
+
+.tech img {   
+    width: 100%;
+    height: 300px;
+    position: relative;
+    object-fit: cover;
+  }
+  main {
+	display: flex;
+	flex-wrap: wrap;
+  }
+ 
+.label-container {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border-right: 3px solid #2471A3;
+	height: 120px;
+	position:absolute;
+	right: 86%; 
+	padding-right: 10px;
+	margin-top: 20px;
+	font-size: 50px;
+	color: #2471A3;
+	
+
+}
+
+.contents-container {
+	display: inline-block;
+	padding-left: 290px;
+	margin-top: 20px;
+	color:#2471A3;
+	font-size: 25px;
+	padding-right: 50px;
+
+
+}
+
+
+.label-work {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border-right: 3px solid #2471A3;
+	height: 1650px;
+	position: absolute;
+	right: 86%;
+	padding-right: 25px;
+	margin-top: 80px;
+	font-size: 50px;
+	color: #2471A3;
+
+}
+
+
+.contents-work  {
+	display: inline-block;
+	padding-left: 330px;
+	margin-top: 70px;
+	color:#2471A3;
+	font-size: 25px;
+}
+
+
+.row img{
+	width: 425px;
+	height: 425px;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 5px;
+
+}
+	  
+	 
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.row {
+	display: flex;
+}
+	  
+.column {
+	flex: 50%;
+	padding: 5px;
+		
+}
+
+	  
+
+
+	
+section nav {
+	padding-top: 25px;
+	margin-right: 50px;
+	float: right;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-size: 20px;
+    display:inline block;
+    color: black;
+	
+}
+
+section nav ul {
+	list-style-type: none;
+	
+}
+
+section nav ul li {
+	display: inline-block;
+	margin-left: 25px;
+	
+    
+}
+.label-contact-me {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border-right: 3px solid #2471A3;
+	height: 100px;
+	position: absolute;
+	right: 86%;
+	padding-right: 35px;
+	padding-left: 66px;
+	margin-top: 80px;
+	font-size: 50px;
+	color: #2471A3;	
+}
+
+.content-contact-me {
+	display: inline-block;
+	padding-left: 630px;
+	margin-top: 70px;
+	color:#2471A3;
+	font-size: 25px;
+	word-spacing: 70px;
+
+}
