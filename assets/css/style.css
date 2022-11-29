@@ -105,11 +105,16 @@ header nav ul li {
   position: relative;
 }
 
+
+
 .bottom-left {
-  position: absolute;
-  bottom: 10px;
+  position: relative;
+  bottom: 55px;
   left: 16px;
-  font-size: 18px;
+  font-size: 30px;
+}
+.column {
+position: relative;
 }
 
 img { 
