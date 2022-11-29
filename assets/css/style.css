@@ -101,6 +101,22 @@ header nav ul li {
 
 }
 
+.container {
+  position: relative;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+  font-size: 18px;
+}
+
+img { 
+  width: 100%;
+  height: auto;
+  
+}
 
 .contents-work  {
 	display: inline-block;
